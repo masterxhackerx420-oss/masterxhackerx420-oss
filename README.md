@@ -52,13 +52,16 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
       <br><a href="https://masterxhackerx420-oss.github.io/echoweaver/">Open the live weaver</a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/masterxhackerx420-oss/quietcache">QuietCache</a></h3>
-      A local verifier, an encrypted knowledge cache, and an offline private transfer. No network. No accounts.
+      <a href="https://github.com/masterxhackerx420-oss/wolfsec-glade-ever-horizon">
+        <img src="wolfsec.jpg" alt="WolfSec. A masked figure in a black suit and red tie stands with an armored wolf in the rain.">
+      </a>
       <h3><a href="https://github.com/masterxhackerx420-oss/wolfsec-glade-ever-horizon">WolfSec Glade</a></h3>
-      The WolfSec project, beside the cache.
+      The picture uploaded on that repo. WolfSec in the rain.
     </td>
   </tr>
 </table>
+
+**[QuietCache](https://github.com/masterxhackerx420-oss/quietcache)** — a local verifier, an encrypted knowledge cache, and an offline private transfer. No network. No accounts.
 
 ## Shed, up close
 

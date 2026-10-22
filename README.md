@@ -76,6 +76,25 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
       <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch/releases/download/v1.0.0/rex-deadman-switch-android.zip">Android</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" colspan="2">
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon">
+        <img src="https://raw.githubusercontent.com/masterxhackerx420-oss/rex-ghost-recon/main/header.jpg" alt="A masked figure in a black suit and red tie stands with an armored wolf in the rain.">
+      </a>
+      <h3><a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon">Rex's Ghost Recon</a></h3>
+      Public-record desk. DNS, registration, headers, certificates. Authorized hosts only.
+      <br>
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon-windows.zip">Windows</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon-macos.zip">macOS</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon-linux.zip">Linux</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon_1.0.0_all.deb">Debian</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon-android.zip">Android</a>
+    </td>
+  </tr>
 </table>
 
 **[QuietCache](https://github.com/masterxhackerx420-oss/quietcache)** — a local verifier, an encrypted knowledge cache, and an offline private transfer. No network. No accounts.

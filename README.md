@@ -83,6 +83,7 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
       </a>
       <h3><a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon">Rex's Ghost Recon</a></h3>
       Public-record desk. DNS, registration, headers, certificates. Authorized hosts only.
+      <br><a href="https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/rex-ghost-recon/blob/main/docs/index.html">Open the live desk</a>
       <br>
       <a href="https://github.com/masterxhackerx420-oss/rex-ghost-recon/releases/download/v1.0.0/rex-ghost-recon-windows.zip">Windows</a>
       ·

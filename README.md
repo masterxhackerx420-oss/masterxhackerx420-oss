@@ -59,6 +59,23 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
       The picture uploaded on that repo. WolfSec in the rain.
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" colspan="2">
+      <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch">
+        <img src="https://raw.githubusercontent.com/masterxhackerx420-oss/rex-deadman-switch/main/switch.jpg" alt="A hooded skull with a cigar, a dead man's lever, a dark terminal, and a sealed envelope on a coal desk.">
+      </a>
+      <h3><a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch">Rex's Deadman Switch</a></h3>
+      Check in with deadman ping. Miss the days you set and it emails the handoff notes. Windows, Apple, Linux, and Android install on the release.
+      <br>
+      <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch/releases/download/v1.0.0/rex-deadman-switch-windows.zip">Windows</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch/releases/download/v1.0.0/rex-deadman-switch-macos.zip">macOS</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch/releases/download/v1.0.0/rex-deadman-switch-linux.zip">Linux</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-deadman-switch/releases/download/v1.0.0/rex-deadman-switch-android.zip">Android</a>
+    </td>
+  </tr>
 </table>
 
 **[QuietCache](https://github.com/masterxhackerx420-oss/quietcache)** — a local verifier, an encrypted knowledge cache, and an offline private transfer. No network. No accounts.

@@ -22,6 +22,28 @@
 
 Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner to God Mode.
 
+**[View all creations in the interactive sidebar →](https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/masterxhackerx420-oss/blob/main/creations.html)**
+
+<details>
+<summary><strong>All public creations</strong> (14 repos)</summary>
+
+- [GhostByte](https://github.com/masterxhackerx420-oss/GhostByte) — Phone Recovery & OSINT Toolkit
+- [rex-deadman-switch](https://github.com/masterxhackerx420-oss/rex-deadman-switch) — Cron dead man's switch
+- [netsnitch-py](https://github.com/masterxhackerx420-oss/netsnitch-py) — See which processes phone home
+- [rex-ghost-recon](https://github.com/masterxhackerx420-oss/rex-ghost-recon) — Public-record desk
+- [mxhx-shed](https://github.com/masterxhackerx420-oss/mxhx-shed) — Beginner to God Mode benches
+- [echoweaver](https://github.com/masterxhackerx420-oss/echoweaver) — Social Media OSINT tool
+- [quietcache](https://github.com/masterxhackerx420-oss/quietcache) — Stealth local verifier & encrypted cache
+- [reconkit](https://github.com/masterxhackerx420-oss/reconkit) — Python CLI for DNS, dorks, encoding, proxy, IP tools
+- [osint-tools-array](https://github.com/masterxhackerx420-oss/osint-tools-array) — Curated OSINT tools array
+- [fire-language-writer](https://github.com/masterxhackerx420-oss/fire-language-writer) — Reconstructed Fire Language writer
+- [wolfsec](https://github.com/masterxhackerx420-oss/wolfsec) — WolfSec cybersecurity landing + forum
+- [WolfSec-OSINT](https://github.com/masterxhackerx420-oss/WolfSec-OSINT) — WolfSec OSINT Framework
+- [wolfsec-glade-ever-horizon](https://github.com/masterxhackerx420-oss/wolfsec-glade-ever-horizon) — WolfSec Glade
+- [masterxhackerx420-oss](https://github.com/masterxhackerx420-oss/masterxhackerx420-oss) — This profile
+
+</details>
+
 ## On the floor
 
 <table>

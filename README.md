@@ -7,18 +7,6 @@
   Never underestimate the power.
 </p>
 
-```text
-+-------------------------------+
-|             MXHX              |
-|     #### #   # ##### ####     |
-|    #     #   # #     #   #    |
-|     ###  ##### ####  #   #    |
-|        # #   # #     #   #    |
-|    ####  #   # ##### ####     |
-|                               |
-| never underestimate the power |
-+-------------------------------+
-```
 
 Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner to God Mode.
 

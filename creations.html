@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MasterX_HackerX Creations</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --sidebar: #161b22;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --hover: #21262d;
+    --star: #f1e05a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 340px;
+    min-width: 280px;
+    background: var(--sidebar);
+    border-right: 1px solid var(--border);
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    padding: 1.2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-header {
+    padding: 0 1.2rem 1rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+  }
+  .sidebar-header h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .sidebar-header p {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 0.3rem;
+  }
+  .search {
+    margin: 0.6rem 1.2rem 0.8rem;
+  }
+  .search input {
+    width: 100%;
+    background: #0d1117;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.45rem 0.7rem;
+    color: var(--text);
+    font-size: 0.85rem;
+    outline: none;
+  }
+  .search input:focus { border-color: var(--accent); }
+  .repo-list { flex: 1; overflow-y: auto; }
+  .repo-item {
+    display: block;
+    padding: 0.75rem 1.2rem;
+    border-bottom: 1px solid #21262d;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s;
+  }
+  .repo-item:hover { background: var(--hover); }
+  .repo-name {
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .lang-badge {
+    font-size: 0.7rem;
+    background: #30363d;
+    color: var(--muted);
+    padding: 0.15rem 0.4rem;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .repo-desc {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.3rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .stars {
+    color: var(--star);
+    font-size: 0.75rem;
+    margin-left: 0.3rem;
+  }
+  .main {
+    flex: 1;
+    padding: 2rem;
+  }
+  .main h1 { margin-bottom: 0.5rem; }
+  .main p { color: var(--muted); max-width: 60ch; }
+  @media (max-width: 800px) {
+    body { flex-direction: column; }
+    .sidebar {
+      width: 100%;
+      height: auto;
+      max-height: 60vh;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+  }
+</style>
+</head>
+<body>
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>🐺 DebianGang Creations</h2>
+    <p>All public repos from masterxhackerx420-oss</p>
+  </div>
+  <div class="search">
+    <input type="search" id="filter" placeholder="Filter creations…" autocomplete="off">
+  </div>
+  <div class="repo-list" id="list"></div>
+</aside>
+<main class="main">
+  <h1>MasterX_HackerX Creations</h1>
+  <p>All public creations from masterxhackerx420-oss. Click any item to open the repo. Filter live with the search box.</p>
+  <p style="margin-top:1rem"></p>
+</main>
+<script>
+const repos = [
+  {"name":"GhostByte","desc":"Phone Recovery & OSINT Toolkit — number intelligence, carrier guidance, official recovery links, and evidence vault. MIT licensed.","url":"https://github.com/masterxhackerx420-oss/GhostByte","lang":"Python","stars":1},
+  {"name":"rex-deadman-switch","desc":"Cron dead man's switch. Check in with deadman ping. Miss N days and it emails your handoff notes. Standard library only.","url":"https://github.com/masterxhackerx420-oss/rex-deadman-switch","lang":"Python","stars":1},
+  {"name":"netsnitch-py","desc":"See which processes phone home: ranked table of outbound connections by domain.","url":"https://github.com/masterxhackerx420-oss/netsnitch-py","lang":"Python","stars":1},
+  {"name":"rex-ghost-recon","desc":"Public-record desk. DNS, registration, headers, certificates. Authorized hosts only. Installers for Windows, macOS, Linux, Debian, and Android.","url":"https://github.com/masterxhackerx420-oss/rex-ghost-recon","lang":"Python","stars":0},
+  {"name":"mxhx-shed","desc":"MXHX Shed — beginner to God Mode benches for GitHub versions, scrapers, DNS, phone tools, and stenography.","url":"https://github.com/masterxhackerx420-oss/mxhx-shed","lang":"TypeScript","stars":0},
+  {"name":"echoweaver","desc":"EchoWeaver - Social Media OSINT tool for temporal correlation and stylometric analysis. Unique tool for linking accounts across platforms.","url":"https://github.com/masterxhackerx420-oss/echoweaver","lang":"HTML","stars":0},
+  {"name":"quietcache","desc":"Stealth local verifier, encrypted knowledge cache, and offline private transfer tool. Fully on-device, no network, no accounts.","url":"https://github.com/masterxhackerx420-oss/quietcache","lang":"Python","stars":0},
+  {"name":"reconkit","desc":"A single Python CLI with subcommands for DNS, Google dorks, hex/crypt encoding, proxy scanning, and IP tools.","url":"https://github.com/masterxhackerx420-oss/reconkit","lang":"Python","stars":0},
+  {"name":"osint-tools-array","desc":"A large curated array of OSINT tools for beginners to experts. Free and open resources, categorized, with beginner paths and expert workflows. Live version via GitHub Pages.","url":"https://github.com/masterxhackerx420-oss/osint-tools-array","lang":"HTML","stars":0},
+  {"name":"fire-language-writer","desc":"Interactive writing tool for The Reconstructed Fire Language — Ancient Kemetic Alphabet of Creation. Compose words with the full multi-layered symbolic system.","url":"https://github.com/masterxhackerx420-oss/fire-language-writer","lang":"HTML","stars":0},
+  {"name":"wolfsec","desc":"WolfSec — Cybersecurity, Reverse Engineering & DebianGang tools. Landing site + forum.","url":"https://github.com/masterxhackerx420-oss/wolfsec","lang":"HTML","stars":0},
+  {"name":"WolfSec-OSINT","desc":"WolfSec OSINT Framework — DebianGang edition. Practical free passive OSINT toolkit for domain, IP, username, and email investigation.","url":"https://github.com/masterxhackerx420-oss/WolfSec-OSINT","lang":"Python","stars":0},
+  {"name":"wolfsec-glade-ever-horizon","desc":"WolfSec Glade Ever Horizon project.","url":"https://github.com/masterxhackerx420-oss/wolfsec-glade-ever-horizon","lang":"JavaScript","stars":0},
+  {"name":"masterxhackerx420-oss","desc":"MasterX_HackerX. Never underestimate the power.","url":"https://github.com/masterxhackerx420-oss/masterxhackerx420-oss","lang":"","stars":0}
+];
+
+const list = document.getElementById('list');
+const filter = document.getElementById('filter');
+
+function render(items) {
+  list.innerHTML = items.map(r => `
+    <a class="repo-item" href="${r.url}" target="_blank" rel="noopener">
+      <div class="repo-name">
+        <span>${r.name}</span>
+        ${r.lang ? `<span class="lang-badge">${r.lang}</span>` : ''}
+      </div>
+      <div class="repo-desc">${r.desc}${r.stars ? ` <span class="stars">★ ${r.stars}</span>` : ''}</div>
+    </a>
+  `).join('');
+}
+
+render(repos);
+
+filter.addEventListener('input', () => {
+  const q = filter.value.toLowerCase().trim();
+  const filtered = q
+    ? repos.filter(r => r.name.toLowerCase().includes(q) || r.desc.toLowerCase().includes(q) || (r.lang||'').toLowerCase().includes(q))
+    : repos;
+  render(filtered);
+});
+</script>
+</body>
+</html>

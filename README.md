@@ -7,6 +7,11 @@
   Never underestimate the power.
 </p>
 
+<p align="center">
+  <a href="https://hits.sh/github.com/masterxhackerx420-oss/masterxhackerx420-oss/">
+    <img src="https://hits.sh/github.com/masterxhackerx420-oss/masterxhackerx420-oss.svg?label=Visitors&color=blue&style=for-the-badge" alt="Visitors">
+  </a>
+</p>
 
 Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner to God Mode.
 

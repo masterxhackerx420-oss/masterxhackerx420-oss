@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://hits.sh/github.com/masterxhackerx420-oss/masterxhackerx420-oss/">
-    <img src="https://hits.sh/github.com/masterxhackerx420-oss/masterxhackerx420-oss.svg?label=Visitors&color=blue&style=for-the-badge" alt="Visitors">
+    <img src="https://hits.sh/github.com/masterxhackerx420-oss/masterxhackerx420-oss.svg?style=for-the-badge&label=Visitors&color=8b5cf6&logo=eye" alt="Visitors">
   </a>
 </p>
 

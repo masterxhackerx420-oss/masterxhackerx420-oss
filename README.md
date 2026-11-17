@@ -43,12 +43,12 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
 <table>
   <tr>
     <td width="50%" valign="top" colspan="2">
-      <a href="https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/rex-social-scraper/blob/main/docs/index.html">
+      <a href="https://masterxhackerx420-oss.github.io/wolfsec/social/">
         <img src="https://raw.githubusercontent.com/masterxhackerx420-oss/rex-social-scraper/main/header.jpg" alt="A brass geometric wolf on a dark desk.">
       </a>
       <h3><a href="https://github.com/masterxhackerx420-oss/rex-social-scraper">Rex's Social Scraper</a></h3>
       Public posts across 13 platforms, or your own account when you add an official key. Limit 100.
-      <br><a href="https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/rex-social-scraper/blob/main/docs/index.html">Open the live reader</a>
+      <br><a href="https://masterxhackerx420-oss.github.io/wolfsec/social/">Open the live reader</a>
       <br>
       <a href="https://github.com/masterxhackerx420-oss/rex-social-scraper/releases/download/v1.0.0/rex-social-scraper-android.zip">Android</a>
       ·

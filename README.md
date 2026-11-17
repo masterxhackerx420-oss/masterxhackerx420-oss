@@ -18,8 +18,9 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
 **[View all creations in the interactive sidebar →](https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/masterxhackerx420-oss/blob/main/creations.html)**
 
 <details>
-<summary><strong>All public creations</strong> (14 repos)</summary>
+<summary><strong>All public creations</strong> (public repos)</summary>
 
+- [Rex's Social Scraper](https://github.com/masterxhackerx420-oss/rex-social-scraper) — Public posts, or your own account with an official key. Limit 100.
 - [GhostByte](https://github.com/masterxhackerx420-oss/GhostByte) — Phone Recovery & OSINT Toolkit
 - [rex-deadman-switch](https://github.com/masterxhackerx420-oss/rex-deadman-switch) — Cron dead man's switch
 - [netsnitch-py](https://github.com/masterxhackerx420-oss/netsnitch-py) — See which processes phone home
@@ -40,6 +41,22 @@ Public infrastructure, OSINT desks, and tools that stay on the machine. Beginner
 ## On the floor
 
 <table>
+  <tr>
+    <td width="50%" valign="top" colspan="2">
+      <a href="https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/rex-social-scraper/blob/main/docs/index.html">
+        <img src="https://raw.githubusercontent.com/masterxhackerx420-oss/rex-social-scraper/main/header.jpg" alt="A brass geometric wolf on a dark desk.">
+      </a>
+      <h3><a href="https://github.com/masterxhackerx420-oss/rex-social-scraper">Rex's Social Scraper</a></h3>
+      Public posts across 13 platforms, or your own account when you add an official key. Limit 100.
+      <br><a href="https://htmlpreview.github.io/?https://github.com/masterxhackerx420-oss/rex-social-scraper/blob/main/docs/index.html">Open the live reader</a>
+      <br>
+      <a href="https://github.com/masterxhackerx420-oss/rex-social-scraper/releases/download/v1.0.0/rex-social-scraper-android.zip">Android</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-social-scraper/releases/download/v1.0.0/rex-social-scraper-windows.zip">Windows</a>
+      ·
+      <a href="https://github.com/masterxhackerx420-oss/rex-social-scraper/releases/download/v1.0.0/rex-social-scraper-linux.zip">Linux</a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/masterxhackerx420-oss/mxhx-shed">
